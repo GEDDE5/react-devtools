@@ -21,7 +21,7 @@
     "fs-extra": "^3.0.1",
     "gh-pages": "^1.0.0",
     "immutable": "3.7.6",
-    "jest": "22.1.4",
+    "jest": "23.0.0",
     "json-loader": "0.5.4",
     "log-update": "^2.0.0",
     "node-libs-browser": "0.5.3",
@@ -33,7 +33,7 @@
     "react-color": "^2.11.7",
     "react-dom": "15.4.2",
     "react-portal": "^3.1.0",
-    "webpack": "1.12.9"
+    "webpack": "2.2.0"
   },
   "license": "BSD-3-Clause",
   "repository": "facebook/react-devtools",
