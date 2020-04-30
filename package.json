@@ -33,7 +33,8 @@
     "react-color": "^2.11.7",
     "react-dom": "15.4.2",
     "react-portal": "^3.1.0",
-    "webpack": "1.12.9"
+    "webpack": "1.12.9",
+    "snyk": "^1.316.1"
   },
   "license": "BSD-3-Clause",
   "repository": "facebook/react-devtools",
@@ -52,7 +53,9 @@
     "test:chrome": "node ./shells/chrome/test",
     "test:firefox": "node ./shells/firefox/test",
     "test:standalone": "cd packages/react-devtools && yarn start",
-    "typecheck": "flow check"
+    "typecheck": "flow check",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "jest": {
     "modulePathIgnorePatterns": [
@@ -64,5 +67,6 @@
     "firefox-profile": "^1.0.2",
     "lerna": "^2.8.0",
     "web-ext": "^1.10.1"
-  }
+  },
+  "snyk": true
 }
